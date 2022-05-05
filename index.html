@@ -6,6 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming soon!</title>
+    <script type="text/javascript">//<![CDATA[ 
+(function() {
+    var configuration = {
+    "token": "0f56b136d5939b182c14801cd0173ab6",
+    "domains": [
+        "youtube.com\nko-fi.com\ngithub.com\nvlastikyoutubeko.github.io\nplainrock127.xyz\nold-tv-websites.tk"
+    ],
+    "capping": {
+        "limit": 5,
+        "timeout": 24
+    },
+    "entryScript": {
+        "type": "timeout",
+        "timeout": 3000,
+        "capping": {
+            "limit": 5,
+            "timeout": 24
+        }
+    }
+};
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+})();
+//]]></script>
     <meta name="description" content="YAX Coming Soon HTML5/CSS3 Free Template by Morteza Aghili" />
     <meta name="keywords" content="HTML5, css3, Free Template, web design, flat design, inspiration, responsive, svg, pseudo-elements" />
     <meta name="author" content="Morteza Aghili" />
